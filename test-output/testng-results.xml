@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T18:02:21 IST" name="Suite" finished-at="2022-07-25T18:03:15 IST" duration-ms="53527">
+    <groups>
+    </groups>
+    <test started-at="2022-07-25T18:02:21 IST" name="ChromeTest" finished-at="2022-07-25T18:03:15 IST" duration-ms="53527">
+      <class name="execution.Smoke">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:02:21 IST" name="beforesuite" finished-at="2022-07-25T18:02:21 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:02:21 IST" name="beforeclass" finished-at="2022-07-25T18:02:22 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod(java.lang.String)[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:02:22 IST" name="beforemethod" finished-at="2022-07-25T18:02:32 IST" duration-ms="10315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Checkout_test()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:02:32 IST" name="Checkout_test" finished-at="2022-07-25T18:03:15 IST" duration-ms="42570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkout_test -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:03:15 IST" name="aftermethod" finished-at="2022-07-25T18:03:15 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:03:15 IST" name="afterclass" finished-at="2022-07-25T18:03:15 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:execution.Smoke@353d0772]" started-at="2022-07-25T18:03:15 IST" name="aftersuite" finished-at="2022-07-25T18:03:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- execution.Smoke -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
